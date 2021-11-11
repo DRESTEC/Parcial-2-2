@@ -29,8 +29,8 @@ public class Pacient {
         DateTimeFormatter esDateFormat = DateTimeFormatter.ofPattern("dd/MM/yyyy  || hh:mm:ss");
         return    "Nombre " + Nombre   + "\nGeneror: " + genero + "\ngrupo: " + grupoP
                 + "\nTriage: " + triage
-                + "\nDocumento" + documento
-                + "\nCheck In: " + fecha.format(esDateFormat)+"\n---------\n";
+                + "\nDocumento: " + documento
+                + "\nFecha: " + fecha.format(esDateFormat)+"\n---------\n";
     }
     
     public String getHourCheckInt(){
